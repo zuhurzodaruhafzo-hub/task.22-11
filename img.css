@@ -8,14 +8,14 @@
 .sec4 {
 background-image: url(./image/Rectangle\ \(15\).png);
 background-repeat: no-repeat;
-width: 96%;
-margin: auto;
+width: 100%;
+background-size: cover;
 height: 2432px;
 }
 .sec5 {
 background-image: url(./image/Rectangle\ \(16\).png);
 background-repeat: no-repeat;
-width: 96%;
-margin: auto;
+width: 100%;
+background-size: cover;
 height: 850px;
 }
