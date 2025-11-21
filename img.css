@@ -5,3 +5,10 @@
     height: 820px;
     background-size: cover;
 }
+.sec4 {
+background-image: url(./image/Rectangle\ \(15\).png);
+background-repeat: no-repeat;
+width: 96%;
+margin: auto;
+height: 2432px;
+}
