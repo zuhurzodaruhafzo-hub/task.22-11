@@ -264,8 +264,14 @@
   .ml-5 {
     margin-left: calc(var(--spacing) * 5);
   }
+  .ml-52 {
+    margin-left: calc(var(--spacing) * 52);
+  }
   .flex {
     display: flex;
+  }
+  .hidden {
+    display: none;
   }
   .table {
     display: table;
@@ -518,6 +524,9 @@
   .text-center {
     text-align: center;
   }
+  .text-end {
+    text-align: end;
+  }
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
@@ -595,6 +604,11 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .lg\:flex {
+    @media (width >= 64rem) {
+      display: flex;
+    }
   }
 }
 @property --tw-border-style {
